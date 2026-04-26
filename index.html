@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hirun Theminda — IT Undergraduate & Full Stack Developer</title>
+  <meta name="description" content="Personal portfolio of Hirun Theminda, IT undergraduate at University of Moratuwa." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand" aria-label="HT — Home">
+        <span class="brand__logo">HT</span>
+      </a>
+      <nav>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="index.html" class="nav__link active">Home</a></li>
+          <li><a href="blog.html" class="nav__link">Blog</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn--primary btn--pill nav__cta">Let's talk</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__content">
+        <h1 class="hero__title"><span class="hero__hello">Hello, I'm</span> <span class="hero__name">Hirun Theminda.</span></h1>
+        <p class="hero__role">IT Undergraduate · University of Moratuwa · Full Stack Developer</p>
+        <p class="hero__bio">Passionate about building intelligent, user-friendly web applications and using technology and data to solve real-world problems while improving decision-making.</p>
+        <div class="hero__actions">
+          <a href="#skills" class="btn btn--primary btn--pill">View Skills →</a>
+          <a href="contact.html" class="btn btn--ghost btn--pill">✉ Contact Me</a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <div class="photo-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Hirun Theminda" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container reveal">
+      <span class="eyebrow">About me</span>
+      <h2 class="section__title">A bit about me</h2>
+      <div class="about__text">
+        <p>I'm a <strong>first-year IT&M student at the University of Moratuwa</strong>, building my foundation in software, security and analytics.</p>
+        <p>I'm a <strong>full stack developer</strong> in the making — exploring both front-end and back-end technologies to craft intelligent and user-friendly web applications. I'm also a <strong>beginner in Data Science</strong>, learning step by step alongside my IT studies.</p>
+      </div>
+    </div>
+    <div class="container interests-grid">
+      <article class="card interest reveal"><div class="icon-tile">💻</div><h3>Full Stack Development</h3><p>Building end-to-end web apps with modern stacks.</p></article>
+      <article class="card interest reveal"><div class="icon-tile">🛡️</div><h3>Cybersecurity</h3><p>Beginner — learning to secure systems & data.</p></article>
+      <article class="card interest reveal"><div class="icon-tile">📊</div><h3>Business Analysis</h3><p>Beginner — turning needs into data-driven solutions.</p></article>
+      <article class="card interest reveal"><div class="icon-tile">🗃️</div><h3>Data Science</h3><p>Beginner — extracting insight from data.</p></article>
+    </div>
+  </section>
+
+  <section class="section section--surface" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Skills</span>
+        <h2 class="section__title">Tools & technologies</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="card skill reveal"><h3 class="skill__name">Python</h3><p class="skill__desc">Scripting, data analysis, and automation using libraries like Pandas and NumPy.</p></article>
+        <article class="card skill reveal"><h3 class="skill__name">Java</h3><p class="skill__desc">Object-oriented programming for building robust desktop and academic projects.</p></article>
+        <article class="card skill reveal"><h3 class="skill__name">SQL</h3><p class="skill__desc">Designing queries, joins, and managing relational databases for data-driven apps.</p></article>
+        <article class="card skill reveal"><h3 class="skill__name">GitHub</h3><p class="skill__desc">Version control, collaboration, and managing repositories with Git workflows.</p></article>
+        <article class="card skill reveal"><h3 class="skill__name">Problem Solving</h3><p class="skill__desc">Breaking down complex challenges into clean, logical, and efficient solutions.</p></article>
+        <article class="card skill reveal"><h3 class="skill__name">Web Development</h3><p class="skill__desc">Building responsive websites using HTML, CSS, and modern JavaScript.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Education</span>
+        <h2 class="section__title">My educational background</h2>
+      </div>
+      <div class="education-grid">
+        <article class="card education reveal"><h3 class="education__title">University</h3><p class="education__institution">University of Moratuwa</p><p class="education__detail">IT&M (Information Technology & Management)</p><p class="education__year">2026 - Present</p></article>
+        <article class="card education reveal"><h3 class="education__title">GCE Advanced Level</h3><p class="education__institution">GCE AL</p><p class="education__detail">Mathematics, Physics & ICT — Z-Score 1.4987</p><p class="education__year">2021 - 2024</p></article>
+        <article class="card education reveal"><h3 class="education__title">GCE Ordinary Level</h3><p class="education__institution">GCE OL</p><p class="education__detail">Completed O/L with 7 A's, 1 B & 1 C.</p><p class="education__year">2019 - 2021</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface" id="certifications">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Certifications</span>
+        <h2 class="section__title">Certificates & credentials</h2>
+      </div>
+      <div class="certifications-grid">
+        <article class="card certification reveal">
+          <h3 class="certification__name">Web Design for Beginners</h3>
+          <p class="certification__date">University of Moratuwa</p>
+          <p class="certification__date">Completed: March 2026</p>
+          <p class="certification__status">Status: Completed</p>
+          <div class="cert-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="cta__inner reveal">
+        <h2>Let's build something together.</h2>
+        <p>Have an idea, opportunity or just want to say hi? I'd love to hear from you.</p>
+        <a href="contact.html" class="btn btn--pill">Get in touch →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <span class="brand__logo brand__logo--sm">HT</span>
+        <p class="footer__about">IT Undergraduate at University of Moratuwa — full stack developer in the making, with a beginner's interest in cybersecurity.</p>
+        <div class="socials">
+          <a href="mailto:hiruntheminda@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/hirun-theminda-153b95405" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Hiruz04" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Navigation</h4>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__heading">Get in Touch</h4>
+        <ul class="footer__contact">
+          <li><span class="footer__label">Email</span><a href="mailto:hiruntheminda@gmail.com">hiruntheminda@gmail.com</a></li>
+          <li><span class="footer__label">University</span><span>University of Moratuwa</span></li>
+          <li><span class="footer__label">Location</span><span>Sri Lanka</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> Hirun Theminda. All rights reserved.</p>
+      <p>Crafted with care.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

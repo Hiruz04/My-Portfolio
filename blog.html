@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Hirun Theminda</title>
+  <meta name="description" content="Articles and notes by Hirun Theminda." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand"><span class="brand__logo">HT</span><span>Hirun Theminda</span></a>
+      <nav>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="blog.html" class="nav__link active">Blog</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn--primary btn--pill nav__cta">Let's talk</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Blog</span>
+      <h1 class="page-header__title">My <span class="text-gradient">articles</span></h1>
+      <p class="page-header__sub">A simple list of things I've written. Click to read on Medium.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <ul class="post-list">
+        <li class="post-item reveal">
+          <a href="https://medium.com/@hiruntheminda/color-theory-in-multimedia-and-web-design-f44ad7b4dde4" target="_blank" rel="noopener">
+            <article class="card">
+              <span class="tag">Color Theory</span>
+              <h2 style="margin-top:14px;">Color Theory in Multimedia and Web Design: Guide For Beginner's </h2>
+              <p>Exploring the fundamentals of color theory in digital design — including 
+                color harmony, contrast, psychology, and accessibility. This guide covers how to choose effective color palettes, create visually appealing interfaces, and enhance user experience across websites and multimedia projects.</p>
+              <span class="post-item__meta">Read on Medium →</span>
+            </article>
+          </a>
+        </li>
+        <li class="post-item post-item--soon reveal">
+          <div class="card">
+            <h2>More articles coming soon</h2>
+            <p>I'm working on new posts about full stack development, cybersecurity basics and study notes.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <span class="brand__logo brand__logo--sm">HT</span>
+        <p class="footer__about">IT Undergraduate at University of Moratuwa — full stack developer in the making, with a beginner's interest in cybersecurity.</p>
+        <div class="socials">
+          <a href="mailto:hiruntheminda@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/hirun-theminda-153b95405" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Hiruz04" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Navigation</h4>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__heading">Get in Touch</h4>
+        <ul class="footer__contact">
+          <li><span class="footer__label">Email</span><a href="mailto:hiruntheminda@gmail.com">hiruntheminda@gmail.com</a></li>
+          <li><span class="footer__label">University</span><span>University of Moratuwa</span></li>
+          <li><span class="footer__label">Location</span><span>Sri Lanka</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> Hirun Theminda. All rights reserved.</p>
+      <p>Crafted with care.</p>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

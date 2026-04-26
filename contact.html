@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Hirun Theminda</title>
+  <meta name="description" content="Get in touch with Hirun Theminda." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="brand"><span class="brand__logo">HT</span><span>Hirun Theminda</span></a>
+      <nav>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="blog.html" class="nav__link">Blog</a></li>
+          <li><a href="contact.html" class="nav__link active">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="btn btn--primary btn--pill nav__cta">Let's talk</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h1 class="page-header__title">Let's start a <span class="text-gradient">conversation.</span></h1>
+      <p class="page-header__sub">Have an opportunity, question, or idea? Drop a message — I'll get back as soon as I can.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <a href="mailto:hiruntheminda@gmail.com" class="card contact-item reveal">
+          <div class="icon-tile"><i class="fas fa-envelope"></i></div>
+          <div><div class="contact-item__label">Email</div><div class="contact-item__value">hiruntheminda@gmail.com</div></div>
+        </a>
+        <a href="tel:+94768803366" class="card contact-item reveal">
+          <div class="icon-tile"><i class="fas fa-phone"></i></div>
+          <div><div class="contact-item__label">Phone</div><div class="contact-item__value">+94 76 880 3366</div></div>
+        </a>
+        <div class="card contact-item reveal">
+          <div class="icon-tile"><i class="fas fa-location-dot"></i></div>
+          <div><div class="contact-item__label">Location</div><div class="contact-item__value">Polonnaruwa, Sri Lanka</div></div>
+        </div>
+        <a href="https://www.linkedin.com/in/hirun-theminda-153b95405" target="_blank" rel="noopener" class="card contact-item reveal">
+          <div class="icon-tile"><i class="fab fa-linkedin"></i></div>
+          <div><div class="contact-item__label">LinkedIn</div><div class="contact-item__value">hirun-theminda</div></div>
+        </a>
+        <a href="https://github.com/Hiruz04" target="_blank" rel="noopener" class="card contact-item reveal">
+          <div class="icon-tile"><i class="fab fa-github"></i></div>
+          <div><div class="contact-item__label">GitHub</div><div class="contact-item__value">Hiruz04</div></div>
+        </a>
+      </div>
+
+      <form class="card contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <label class="field">
+            <span>Full Name</span>
+            <input type="text" id="name" placeholder="Your name" maxlength="100" />
+            <small class="error" data-for="name"></small>
+          </label>
+          <label class="field">
+            <span>Email Address</span>
+            <input type="email" id="email" placeholder="you@example.com" maxlength="255" />
+            <small class="error" data-for="email"></small>
+          </label>
+        </div>
+        <label class="field">
+          <span>Subject</span>
+          <input type="text" id="subject" placeholder="What's it about?" maxlength="150" />
+          <small class="error" data-for="subject"></small>
+        </label>
+        <label class="field">
+          <span>Message</span>
+          <textarea id="message" rows="6" placeholder="Tell me a bit more..." maxlength="1000"></textarea>
+          <small class="error" data-for="message"></small>
+        </label>
+        <button type="submit" class="btn btn--primary btn--pill">Send Message ➤</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <span class="brand__logo brand__logo--sm">HT</span>
+        <p class="footer__about">IT Undergraduate at University of Moratuwa — full stack developer in the making, with a beginner's interest in cybersecurity.</p>
+        <div class="socials">
+          <a href="mailto:hiruntheminda@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/hirun-theminda-153b95405" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Hiruz04" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Navigation</h4>
+        <ul class="footer__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer__heading">Get in Touch</h4>
+        <ul class="footer__contact">
+          <li><span class="footer__label">Email</span><a href="mailto:hiruntheminda@gmail.com">hiruntheminda@gmail.com</a></li>
+          <li><span class="footer__label">University</span><span>University of Moratuwa</span></li>
+          <li><span class="footer__label">Location</span><span>Sri Lanka</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> Hirun Theminda. All rights reserved.</p>
+      <p>Crafted with care.</p>
+    </div>
+  </footer>
+  <!-- Success modal popup -->
+  <div class="modal" id="successModal" role="dialog" aria-modal="true" aria-labelledby="successTitle">
+    <div class="modal__overlay" data-close></div>
+    <div class="modal__content">
+      <div class="modal__icon"><i class="fas fa-check"></i></div>
+      <h3 class="modal__title" id="successTitle">Message sent!</h3>
+      <p class="modal__desc">Thank you for reaching out. I'll get back to you as soon as I can.</p>
+      <button class="btn btn--primary btn--pill modal__close" data-close>Awesome</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
